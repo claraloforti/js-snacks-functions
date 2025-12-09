@@ -4,9 +4,15 @@ const userName = 'Mario';
 
 
 // Dichiara la funzione qui.
+// Funzione arrow
+const saluta = (name) => "Ciao " + name;
+
+
+/* Funzione tradizionale
 function saluta(name) {
     return "Ciao " + name;
 }
+*/
 
 // Invoca la funzione qui e stampa il risultato in console
 const saluto = saluta(userName);
