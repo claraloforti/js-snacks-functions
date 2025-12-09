@@ -16,7 +16,7 @@ function filterNames(myArray, initial) {
 
 
 // Invoca la funzione qui e stampa il risultato in console
-const initialA = filterNames (names, "A");
+const initialA = filterNames(names, "A");
 console.log(initialA);
 
 
