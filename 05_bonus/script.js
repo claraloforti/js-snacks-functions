@@ -9,9 +9,23 @@ const name = 'Mario';
 
 
 // Dichiara la funzione qui.
+function saluta(nome) {
+    const orario = new Date().getHours();
+    let saluto;
+
+    if (orario <= 13) {
+        saluto = "Buongiorno ";
+    } else if (orario <= 17) {
+        saluto = "Buon pomeriggio ";
+    } else {
+        saluto = "Buonasera ";
+    }
+    return saluto + nome;
+}
 
 
 // Invoca la funzione qui e stampa il risultato in console
+console.log(saluta(name));
 
 
 
