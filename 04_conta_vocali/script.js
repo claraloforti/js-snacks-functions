@@ -17,7 +17,7 @@ function contaVocali(stringa) {
             arrayVocali.push(lettera);
         }
     }
-    return conta, arrayVocali;
+    return [conta, arrayVocali];
 }
 
 
