@@ -5,7 +5,7 @@ const userName = 'Mario';
 
 // Dichiara la funzione qui.
 // Funzione arrow
-const saluta = (name) => "Ciao " + name;
+const saluta = name => "Ciao " + name;
 
 
 /* Funzione tradizionale

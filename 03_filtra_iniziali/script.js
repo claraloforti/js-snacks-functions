@@ -6,8 +6,11 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 // Dichiara la funzione qui.
 function filterNames(myArray, initial) {
     const filteredNames = [];
+    initial = initial.toLowerCase();
+    
     for (let i = 0; i < myArray.length; i++) {
-        if (myArray[i][0] === initial) { // se il nome inizia con initial allora aggiungo il nome all'array
+        const initialArray = myArray[i][0].toLowerCase();
+        if (initialArray === initial) { // se il nome inizia con initial allora aggiungo il nome all'array
             filteredNames.push(myArray[i]);
         }
     }
