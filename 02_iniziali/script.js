@@ -7,7 +7,8 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 function trovaIniziali(myArray) {
     const iniziali = [];
     for (let i = 0; i < myArray.length; i++) {
-        iniziali.push(myArray[i][0]); // aggiungo la prima lettera di ogni nome dell'array
+        const initialArray = myArray[i][0].toLowerCase();
+        iniziali.push(initialArray); // aggiungo la prima lettera di ogni nome dell'array
     }
     return iniziali;
 }
